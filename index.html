@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day84-Product Card Design using HTML CSS and JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="item-container">
+      <li class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <sub id="items"></sub>
+      </li>
+      <img class="one active" src="./images/blue.jpg" alt="" />
+      <img class="two" src="./images/pink.png" alt="" />
+      <img class="three" src="./images/yellow.png" alt="" />
+      <div class="colors">
+        <ul>
+          <li id="blue" class="blue circle"></li>
+          <li id="pink" class="pink circle"></li>
+          <li id="yellow" class="yellow circle"></li>
+        </ul>
+      </div>
+      <p class="title">Fluo M Running Shoes For Men</p>
+      <h2 class="price"><span> Price: </span><span class="money">$60</span></h2>
+      <button class="add-to-card" id="cart-btn">Add To Card</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
